@@ -1,0 +1,33 @@
+[
+  {
+    "name": "GSchool",
+    "desc": "Projet de fin d'annee pour l'obtention de mon DTS, c'est un application de gestion d'ecole. Tech : C#, Winform, sql server",
+    "image": "GSchool.png",
+    "category": "desktop",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Gestion de gare routiere",
+    "desc": "Application de gestion d'une gare routiere(Bus, Itineraire, Reservation, ...). Tech : Java",
+    "image": "gare_routiere",
+    "category": "desktop",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Cours en ligne PHP",
+    "desc": "Application de web de cours en ligne pour des ecoles ou universites. Tech : PHP, Ajax, MySql",
+    "image": "DEV.jpg",
+    "category": "app",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+  
+]
