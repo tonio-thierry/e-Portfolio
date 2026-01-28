@@ -109,7 +109,7 @@ function showProjects(projects) {
     projects.slice(0, 5).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="../assets/images/projects/${project.image}" alt="project" />
+      <img draggable="false" src="assets/images/projects/${project.image}" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -165,7 +165,7 @@ function loader() {
      document.querySelector('.loader-container').classList.add('fade-out');
  }
  function fadeOut() {
-     setInterval(loader, 3000);
+     setInterval(loader, 300);
  }
  window.onload = fadeOut;
 // pre loader end
@@ -189,13 +189,12 @@ document.onkeydown = function (e) {
     }
 }
 
-// Start of Tawk.to Live Chat
+///Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-    s1.charset = 'UTF-8';
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6979ba104bb78b197f504d42/1jg1ntl3t';
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
 })();
